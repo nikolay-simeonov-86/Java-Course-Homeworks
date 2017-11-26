@@ -21,7 +21,6 @@ public class p06
                 {
                     for (int l = 1; l <= 9; l++)
                     {
-
                         if (i*j+k*l==m && i<j && k>l)
                         {
                             sum++;
