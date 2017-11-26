@@ -6,14 +6,14 @@ public class p03
     {
         Scanner scanner = new Scanner(System.in);
 
-        String srok = scanner.nextLine();
+        String period = scanner.nextLine();
         String type = scanner.nextLine();
         String internet = scanner.nextLine();
         double months = Double.parseDouble(scanner.nextLine());
 
         double sum = 1;
 
-        if (srok.equals("one"))
+        if (period.equals("one"))
         {
             if (type.equals("Small"))
             {
@@ -45,7 +45,7 @@ public class p03
                     sum = sum+3.85;
                 }
         }
-        if (srok.equals("two"))
+        if (period.equals("two"))
         {
             if (type.equals("Small"))
             {
